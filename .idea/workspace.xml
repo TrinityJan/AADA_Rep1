@@ -1,36 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="63a5ba94-e62a-410e-afff-91dbc4f9c281" name="Changes" comment="" />
+    <list default="true" id="63a5ba94-e62a-410e-afff-91dbc4f9c281" name="Changes" comment="Run and visualize k-means++ initialization">
+      <change beforePath="$PROJECT_DIR$/.idea/AADA_Rep1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AADA_Rep1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4,
-  "fromUser": false
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;julihet&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/TrinityJan/AADA_Rep1.git&quot;,
+    &quot;accountId&quot;: &quot;26aa41d1-7063-4572-85e5-0f7d061a01ca&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.010380357922629" />
+      <entry key="MS500" value="1.4013252989031302" />
+      <entry key="S2" value="2.0107973718402428" />
+      <entry key="S5" value="2.906923423294973" />
+      <entry key="S10" value="4.089758114949694" />
+      <entry key="S30" value="9.287788359168509" />
+      <entry key="S60" value="15.60216507079732" />
+      <entry key="M2" value="24.231778468858604" />
+      <entry key="M5" value="37.928524074852824" />
+      <entry key="M10" value="47.429174658257395" />
+      <entry key="M15" value="52.32320428781081" />
+      <entry key="M30" value="59.22020693432088" />
+      <entry key="H1" value="63.94309517160834" />
+      <entry key="H2" value="66.7737207375351" />
+      <entry key="H4" value="68.33282978728812" />
+      <entry key="D1" value="69.71420861814538" />
+      <entry key="W1" value="69.95897264561798" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="4.517595897099107E-34" />
+      <entry key="MS500" value="2.1427992024684661E-7" />
+      <entry key="S2" value="0.02151519908266529" />
+      <entry key="S5" value="0.21532683037673558" />
+      <entry key="S10" value="0.4640332211994477" />
+      <entry key="S30" value="0.774193804001423" />
+      <entry key="S60" value="0.8798828353828837" />
+      <entry key="M2" value="0.9380207009351573" />
+      <entry key="M5" value="0.9747314279947401" />
+      <entry key="M10" value="0.9872848768186111" />
+      <entry key="M15" value="0.9915051851189876" />
+      <entry key="M30" value="0.9957435338072689" />
+      <entry key="H1" value="0.9978694973829338" />
+      <entry key="H2" value="0.9989341807060833" />
+      <entry key="H4" value="0.9994669482809742" />
+      <entry key="D1" value="0.9999111383081669" />
+      <entry key="W1" value="0.9999873049891155" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.6907312929888374" />
+      <entry key="MS500" value="1.2401846201537792" />
+      <entry key="S2" value="1.9475308891753036" />
+      <entry key="S5" value="2.966441071313932" />
+      <entry key="S10" value="4.351285389925969" />
+      <entry key="S30" value="9.90021448089044" />
+      <entry key="S60" value="16.36726710707364" />
+      <entry key="M2" value="25.09497625798445" />
+      <entry key="M5" value="38.86551851914281" />
+      <entry key="M10" value="48.39562175151916" />
+      <entry key="M15" value="53.300291405342" />
+      <entry key="M30" value="60.208443802204435" />
+      <entry key="H1" value="64.93712792251162" />
+      <entry key="H2" value="67.7707142153498" />
+      <entry key="H4" value="69.3313205869022" />
+      <entry key="D1" value="70.71395623992808" />
+      <entry key="W1" value="70.95893657062544" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3EEX9en5zrlnl7dRfvjQ08O3ZIC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/20223018/PycharmProjects/AADA_Rep1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\20223018\PycharmProjects\AADA_Rep1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\20223018\PycharmProjects\AADA_Rep1" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-PY-261.24374.152" />
         <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
       </set>
     </attachedChunks>
@@ -42,10 +149,62 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1779744552894</updated>
+      <workItem from="1779786362315" duration="1678000" />
+      <workItem from="1779793418211" duration="572000" />
+      <workItem from="1779804857599" duration="708000" />
     </task>
+    <task id="LOCAL-00001" summary="Plot blobs for all k values">
+      <option name="closed" value="true" />
+      <created>1779786548901</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779786548901</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Plot figure for report">
+      <option name="closed" value="true" />
+      <created>1779788095936</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1779788095936</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add figure for report">
+      <option name="closed" value="true" />
+      <created>1779788129522</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1779788129522</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add gitignore">
+      <option name="closed" value="true" />
+      <created>1779788271978</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1779788271978</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Run and visualize k-means++ initialization">
+      <option name="closed" value="true" />
+      <created>1779793820682</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1779793820682</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Plot blobs for all k values" />
+    <MESSAGE value="Plot figure for report" />
+    <MESSAGE value="Add figure for report" />
+    <MESSAGE value="Add gitignore" />
+    <MESSAGE value="Run and visualize k-means++ initialization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Run and visualize k-means++ initialization" />
   </component>
 </project>

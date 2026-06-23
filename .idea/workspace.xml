@@ -4,32 +4,22 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63a5ba94-e62a-410e-afff-91dbc4f9c281" name="Changes" comment="Run and visualize k-means++ initialization">
+    <list default="true" id="63a5ba94-e62a-410e-afff-91dbc4f9c281" name="Changes" comment="put all of rep 1 in one folder">
+      <change afterPath="$PROJECT_DIR$/Assignment-2a-1779192.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment-2b-2041839.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Visualizer.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/box.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boxgraph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_scan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/make_blobs.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/point.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/point1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/range_query.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/square.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AADA_Rep1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AADA_Rep1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment-1-gonzales.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rep1/Assignment-1-gonzales.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment-1-kmeans++.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rep1/Assignment-1-kmeans++.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment-1-template.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rep1/Assignment-1-template.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Make_blobs.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rep1/Make_blobs.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Run_experiment.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rep1/Run_experiment.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualizer.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/rep1/Visualizer.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/k_values.png" beforeDir="false" afterPath="$PROJECT_DIR$/rep1/assets/k_values.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/rep1/dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/00.in" beforeDir="false" afterPath="$PROJECT_DIR$/rep1/input/00.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/01.in" beforeDir="false" afterPath="$PROJECT_DIR$/rep1/input/01.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/02.in" beforeDir="false" afterPath="$PROJECT_DIR$/rep1/input/02.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/03.in" beforeDir="false" afterPath="$PROJECT_DIR$/rep1/input/03.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/04.in" beforeDir="false" afterPath="$PROJECT_DIR$/rep1/input/04.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/05.in" beforeDir="false" afterPath="$PROJECT_DIR$/rep1/input/05.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/06.in" beforeDir="false" afterPath="$PROJECT_DIR$/rep1/input/06.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/rep1/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/00.out" beforeDir="false" afterPath="$PROJECT_DIR$/rep1/output/00.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/01.out" beforeDir="false" afterPath="$PROJECT_DIR$/rep1/output/01.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/02.out" beforeDir="false" afterPath="$PROJECT_DIR$/rep1/output/02.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/03.out" beforeDir="false" afterPath="$PROJECT_DIR$/rep1/output/03.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/04.out" beforeDir="false" afterPath="$PROJECT_DIR$/rep1/output/04.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/05.out" beforeDir="false" afterPath="$PROJECT_DIR$/rep1/output/05.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/06.out" beforeDir="false" afterPath="$PROJECT_DIR$/rep1/output/06.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/point.py" beforeDir="false" afterPath="$PROJECT_DIR$/rep1/point.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +29,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="Jupyter Notebook" />
       </list>
     </option>
@@ -130,31 +121,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/20223018/PycharmProjects/AADA_Rep1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/20234582/PycharmProjects/AADA_Rep1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\20234582\PycharmProjects\AADA_Rep1" />
       <recent name="C:\Users\20223018\PycharmProjects\AADA_Rep1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\20234582\PycharmProjects\AADA_Rep1" />
+      <recent name="C:\Users\20234582\PycharmProjects\AADA_Rep1\rep1" />
       <recent name="C:\Users\20223018\PycharmProjects\AADA_Rep1" />
     </key>
   </component>
@@ -216,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779793820682</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="put all of rep 1 in one folder">
+      <option name="closed" value="true" />
+      <created>1782220375712</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1782220375712</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +230,7 @@
     <MESSAGE value="Add figure for report" />
     <MESSAGE value="Add gitignore" />
     <MESSAGE value="Run and visualize k-means++ initialization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Run and visualize k-means++ initialization" />
+    <MESSAGE value="put all of rep 1 in one folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="put all of rep 1 in one folder" />
   </component>
 </project>
